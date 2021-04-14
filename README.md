@@ -29,6 +29,8 @@
  
 **[ ]** vii. create output
 
+**[ ]** viii. validate using unit tests for various edge cases
+
 # Issues
 
 **[FIXED]** os.walk detecting notebook checkpoints | move working directory
@@ -63,5 +65,21 @@
  
 - booking_no = AAR304421200, AAR204421200; have identical values for all values except booking_no, b/l_no
 
+# Questions
 
+- Which column is the id?
+
+- Is the yearly folder for data obtained only for 1 year? 
+
+- (follow=up) Regarding 'for each country each year', does that mean they are separated by certain years, e.g., is it determined by *sailing_dt*?
+
+- 
+
+## Unit Tests & Edge Cases
+
+**[ ]** column data has mismatched data types
+
+**[ ]** certain columns have incorrect data types
+
+**[ ]** missing important values: sailing_dt, country
 
