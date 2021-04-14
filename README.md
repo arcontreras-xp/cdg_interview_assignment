@@ -6,12 +6,27 @@
 
 **[ ]** Write pseudo-code illustrating key operations
 
-**[ ]** Produce a standardised company lookup table structure
+**[ ]** Produce a standardised company lookup table structure:
 
 | uid | Name | country | state | City | Address | Telephone | url |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [generate one yourself] | Cleaned / standardized | Letters code or full name | [If applicable] | Cleaned / standardized | Cleaned / standardized | +[country]-[phone] | www.[url] |
 
+Company related columns include the name, address, and contact details available for: shipper, consignee, forward company, notify company, also notify company, export name, booking contact and si contact.
+
+## Steps
+
+i. Review data and assess general structure
+
+ii. Clean data, separate into distinct columns and rows where possible
+
+iii. Retrieve *company related columns* and sort data accordingly
+
+iv. create output *.xlsx* file
+
+## Notes
+
+## Questions
 
 # Assignment 2
 
@@ -40,9 +55,9 @@
 
 **[DONE]** v. investigate no. of unique values, remove duplicates in data
 
-**[ ]** vi. sort by 'sailing_dt', separate by country then separate by year
+**[DONE]** vi. sort by 'sailing_dt', separate by country then separate by year
  
-**[ ]** vii. create output
+**[DONE]** vii. create output
 
 **[ ]** viii. validate using unit tests for various edge cases
 
