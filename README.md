@@ -17,7 +17,7 @@
 
 **[DONE]** i. load dataframes from monthly and yearly folders
 
-**[DONE]** ii. check structures of dataframes, note differences in columns
+**[DONE]** ii. check structures of dataframes, note differences in columns, clean data
 
 **[DONE]** iii. merge dataframes
 
@@ -33,16 +33,27 @@
 
 **[FIXED]** os.walk detecting notebook checkpoints | move working directory
 
-**[ ]** not all duplicates removed by *.drop_duplicates()*; 2691 duplicates removed
+**[FIXED]** dataframe columns are not the same; some values have been added and/or moved | accounted for in merging process
 
-**[ ]** duplicates not detected; column '' has inconsistent data formats | reformat column
+**[FIXED]** two columns of 'export_name' and other columns also | use *pd.concat* instead of append
+
+**[ ]** lots of *dtypes* are *objects*
 
 # Notes
 
-- monthly total rows = 6211
+- monthly total rows = 6211, yearly total rows = 6341
 
-- yearly total rows = 6341
+- b/l_no 5313 unique values, booking_no 4891 unique values
 
+- initial duplicates detected: 2691
+
+- largest amount of unique values in column: b/l_no, 5313; use as row id
+
+- *.xlsx* dataframe differences: added{' ORG EQ OFC', ' DEL EQ OFC', 'Forward Code ', ' Trunk POL', '  Trunk POD'}, moved{'Export Name'}
+
+- dataframe differences with *monthly* and *yearly*: del_eq_ofc, forward_code, org_eq_ofc
+ 
 - booking_no = AAR304421200, AAR204421200; have identical values for all values except booking_no, b/l_no
+
 
 
