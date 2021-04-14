@@ -9,8 +9,8 @@
 **[ ]** Produce a standardised company lookup table structure
 
 | uid | Name | country | state | City | Address | Telephone | url |
-|:---:|:----:|:-------:|:-----:|:----:|:-------:|:---------:|:---:|
-| [generate one yourself] Cleaned / standardized Letters code or full name [If applicable] Cleaned /  standardized Cleaned / standardized+[country]-[phone] www.[url] |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [generate one yourself] | Cleaned / standardized | Letters code or full name | [If applicable] | Cleaned / standardized | Cleaned / standardized | +[country]-[phone] | www.[url] |
 
 
 # Assignment 2
