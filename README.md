@@ -41,9 +41,9 @@
 
 **[FIXED]** not all duplicates accounted for | use *b/l_no* for unique id
 
-**[ ]** information regarding month/year (folder) which data was recorded missing
+**[FIXED]** information regarding month/year (folder) which data was recorded missing | add month value when reading data
 
-**[ ]** information regarding country (folder)
+**[FIXED]** information regarding country (folder) | add country value when reading data
 
 **[ ]** method to check if data has been lost; need to create some sort of method to compare with original data
 
@@ -72,8 +72,6 @@
 - Is the yearly folder for data obtained only for 1 year? 
 
 - (follow=up) Regarding 'for each country each year', does that mean they are separated by certain years, e.g., is it determined by *sailing_dt*?
-
-- 
 
 ## Unit Tests & Edge Cases
 
