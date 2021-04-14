@@ -23,7 +23,7 @@
 
 **[DONE]** iv. reformat column names
 
-**[ ]** v. investigate no. of unique values, remove duplicates in data
+**[DONE]** v. investigate no. of unique values, remove duplicates in data
 
 **[ ]** vi. sort by 'sailing_dt', separate by country then separate by year
  
@@ -37,7 +37,13 @@
 
 **[FIXED]** two columns of 'export_name' and other columns also | use *pd.concat* instead of append
 
-**[ ]** lots of *dtypes* are *objects*
+**[FIXED]** not all duplicates accounted for | use *b/l_no* for unique id
+
+**[ ]** information regarding month/year (folder) which data was recorded missing
+
+**[ ]** information regarding country (folder)
+
+**[ ]** method to check if data has been lost; need to create some sort of method to compare with original data
 
 # Notes
 
@@ -46,6 +52,8 @@
 - b/l_no 5313 unique values, booking_no 4891 unique values
 
 - initial duplicates detected: 2691
+
+- duplicates by subset *b/l_no*: 4548
 
 - largest amount of unique values in column: b/l_no, 5313; use as row id
 
