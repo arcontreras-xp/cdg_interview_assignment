@@ -1,9 +1,21 @@
 # cdg_interview_assignment
 
-# Tasks Assignment 1
+# Assignment 1
+
+## Tasks
+
+**[ ]** Write pseudo-code illustrating key operations
+
+**[ ]** Produce a standardised company lookup table structure
+
+| uid | Name | country | state | City | Address | Telephone | url |
+|:---:|:----:|:-------:|:-----:|:----:|:-------:|:---------:|:---:|
+| [generate one yourself] Cleaned / standardized Letters code or full name [If applicable] Cleaned /  standardized Cleaned / standardized+[country]-[phone] www.[url] |
 
 
-# Tasks Assignment 2
+# Assignment 2
+
+## Tasks
 
 **[99]** Merge/aggregate: Combine the monthly and yearly datasets to a folder named “aggregate” in one CSV for each country each year.
 
@@ -16,7 +28,7 @@
   b. Column names in the final dataset should be lowercase, and spaces replaced with “_” (underscore), e.g., “Sailing DT'' should be formatted to “sailing_dt.”
   c. Trim leading and trailing spaces, remove double spaces and tabs, and replace line breaks (if they exist) with a delimiter such as <br>.
 
-# Steps Taken
+## Steps
 
 **[DONE]** i. load dataframes from monthly and yearly folders
 
@@ -34,7 +46,7 @@
 
 **[ ]** viii. validate using unit tests for various edge cases
 
-# Issues
+## Issues
 
 **[FIXED]** os.walk detecting notebook checkpoints | move working directory
 
@@ -50,7 +62,7 @@
 
 **[ ]** method to check if data has been lost; need to create some sort of method to compare with original data
 
-# Notes
+## Notes
 
 - monthly total rows = 6211, yearly total rows = 6341
 
@@ -68,7 +80,7 @@
  
 - booking_no = AAR304421200, AAR204421200; have identical values for all values except booking_no, b/l_no
 
-# Questions
+## Questions
 
 - Which column is the id?
 
