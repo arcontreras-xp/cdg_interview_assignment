@@ -1,14 +1,17 @@
 # cdg_interview_assignment
 
-# Tasks
+# Tasks Assignment 1
 
-**[50]** Merge/aggregate: Combine the monthly and yearly datasets to a folder named “aggregate” in one CSV for each country each year.
 
-**[50]** Remove duplicates: The dataset should not contain any duplicates.
+# Tasks Assignment 2
 
-**[25]** Retain as much data as possible: There should be no data lost while aggregating. For example, if the monthly data has 2 more columns than the same country’s yearly data, these two columns should be added to the final aggregated table. The same goes for any extra rows that might appear in either dataset.
+**[99]** Merge/aggregate: Combine the monthly and yearly datasets to a folder named “aggregate” in one CSV for each country each year.
 
-**[75]** Format:
+**[99]** Remove duplicates: The dataset should not contain any duplicates.
+
+**[99]** Retain as much data as possible: There should be no data lost while aggregating. For example, if the monthly data has 2 more columns than the same country’s yearly data, these two columns should be added to the final aggregated table. The same goes for any extra rows that might appear in either dataset.
+
+**[99]** Format:
   a. Sort the data by a sailing date (column name: “Sailing DT”).
   b. Column names in the final dataset should be lowercase, and spaces replaced with “_” (underscore), e.g., “Sailing DT'' should be formatted to “sailing_dt.”
   c. Trim leading and trailing spaces, remove double spaces and tabs, and replace line breaks (if they exist) with a delimiter such as <br>.
@@ -72,6 +75,8 @@
 - Is the yearly folder for data obtained only for 1 year? 
 
 - (follow=up) Regarding 'for each country each year', does that mean they are separated by certain years, e.g., is it determined by *sailing_dt*?
+
+- How thorough should the unit tests be?
 
 ## Unit Tests & Edge Cases
 
