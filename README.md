@@ -95,6 +95,8 @@ iv. create output *.xlsx* file
  
 - booking_no = AAR304421200, AAR204421200; have identical values for all values except booking_no, b/l_no
 
+- output, first columns: sailing_dt, b\l_no, booking_no
+
 ## Questions
 
 - Which column is the id?
@@ -105,11 +107,13 @@ iv. create output *.xlsx* file
 
 - How thorough should the unit tests be?
 
+- Any other output arrangement?
+
 ## Unit Tests & Edge Cases
 
 **[ ]** column data has mismatched data types
 
 **[ ]** certain columns have incorrect data types
 
-**[ ]** missing important values: sailing_dt, country
+**[ ]** missing important values: sailing_dt, country, (b/l_no, booking_no)
 
