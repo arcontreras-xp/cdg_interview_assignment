@@ -18,17 +18,19 @@ Company related columns include the name, address, and contact details available
 
 ## Steps
 
-i. Review data and assess general structure
+i. Review data and assess general structure; note relationships between data
 
-ii. Clean data, separate into distinct columns and rows where possible
+ii. Clean data, research into Bills of Lading conventions
 
-iii. Retrieve *company related columns* and sort data accordingly
+iii. Identify different tables to be created
 
-iv. create output *.xlsx* file
+iv. Retrieve *company related columns* and sort data accordingly
+
+v. create output *.xlsx* file
 
 ## Notes
 
-## Questions
+- Suitable method may be to use SQL queries.
 
 # Assignment 2
 
