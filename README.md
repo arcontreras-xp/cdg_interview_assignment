@@ -95,7 +95,9 @@ iv. create output *.xlsx* file
  
 - booking_no = AAR304421200, AAR204421200; have identical values for all values except booking_no, b/l_no
 
-- output, first columns: sailing_dt, b\l_no, booking_no
+- it appears that the *month* that data is recorded follows the month found in *sailing_dt*
+
+- output, first columns will be: sailing_dt, b\l_no, booking_no
 
 ## Questions
 
