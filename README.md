@@ -1,6 +1,6 @@
 # cdg_interview_assignment
 
-approx. 4 hours, 50/50 research-implementation ratio
+Total time spent: approx. 4 hours, 50/50 research-implementation ratio.
 
 # Assignment 1
 
